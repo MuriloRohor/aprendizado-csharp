@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pratica Arrays", "Pratica A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModificadorParams", "ModificadorParams\ModificadorParams.csproj", "{80550833-EEDA-4AA5-A005-70250DA38064}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays Multidimensionais 1", "Arrays Multidimensionais 1\Arrays Multidimensionais 1.csproj", "{FA3C2C4F-1B60-41B6-AE81-448A82280521}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{80550833-EEDA-4AA5-A005-70250DA38064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80550833-EEDA-4AA5-A005-70250DA38064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80550833-EEDA-4AA5-A005-70250DA38064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3C2C4F-1B60-41B6-AE81-448A82280521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3C2C4F-1B60-41B6-AE81-448A82280521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3C2C4F-1B60-41B6-AE81-448A82280521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3C2C4F-1B60-41B6-AE81-448A82280521}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
