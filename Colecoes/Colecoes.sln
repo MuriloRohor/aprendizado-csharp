@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModificadorParams", "Modifi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays Multidimensionais 1", "Arrays Multidimensionais 1\Arrays Multidimensionais 1.csproj", "{FA3C2C4F-1B60-41B6-AE81-448A82280521}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays Multidimensionais 2", "Arrays Multidimensionais 2\Arrays Multidimensionais 2.csproj", "{D1DBC5D3-C932-4C61-AA61-CBF8C5DC3BDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FA3C2C4F-1B60-41B6-AE81-448A82280521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA3C2C4F-1B60-41B6-AE81-448A82280521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA3C2C4F-1B60-41B6-AE81-448A82280521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DBC5D3-C932-4C61-AA61-CBF8C5DC3BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DBC5D3-C932-4C61-AA61-CBF8C5DC3BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DBC5D3-C932-4C61-AA61-CBF8C5DC3BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DBC5D3-C932-4C61-AA61-CBF8C5DC3BDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
