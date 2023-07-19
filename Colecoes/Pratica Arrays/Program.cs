@@ -22,7 +22,7 @@ for (int i = 0; i < 5; i++)
 
 foreach (string nome in nomes)
 {
-    Console.WriteLine($"{nome} ");
+    Console.Write($"{nome} ");
 }
 
 var somaNotas = 0.0;
@@ -31,7 +31,7 @@ var totalNotas = notas.Count();
 foreach (double nota in notas)
 {
     somaNotas = somaNotas + nota;
-    Console.WriteLine($"{nota} ");
+    Console.Write($"{nota} ");
 }
 
 Console.WriteLine($"\nMédia Aritmética : \n {somaNotas/totalNotas}");
