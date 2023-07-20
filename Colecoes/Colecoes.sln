@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classe Array", "Classe Arra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pratica Arrays", "Pratica Arrays\Pratica Arrays.csproj", "{2A30FE24-F13A-48CD-B34A-E085C9FA13FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModificadorParams", "ModificadorParams\ModificadorParams.csproj", "{80550833-EEDA-4AA5-A005-70250DA38064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModificadorParams", "ModificadorParams\ModificadorParams.csproj", "{80550833-EEDA-4AA5-A005-70250DA38064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays Multidimensionais 1", "Arrays Multidimensionais 1\Arrays Multidimensionais 1.csproj", "{FA3C2C4F-1B60-41B6-AE81-448A82280521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays Multidimensionais 1", "Arrays Multidimensionais 1\Arrays Multidimensionais 1.csproj", "{FA3C2C4F-1B60-41B6-AE81-448A82280521}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays Multidimensionais 2", "Arrays Multidimensionais 2\Arrays Multidimensionais 2.csproj", "{D1DBC5D3-C932-4C61-AA61-CBF8C5DC3BDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays Multidimensionais 2", "Arrays Multidimensionais 2\Arrays Multidimensionais 2.csproj", "{D1DBC5D3-C932-4C61-AA61-CBF8C5DC3BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio - Arrays Bidimensionais", "Exercicio - Arrays Bidimensionais\Exercicio - Arrays Bidimensionais.csproj", "{664EFFB0-EDFB-470F-ADFC-2507708821C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio - Arrays Bidimensionais", "Exercicio - Arrays Bidimensionais\Exercicio - Arrays Bidimensionais.csproj", "{664EFFB0-EDFB-470F-ADFC-2507708821C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayList", "ArrayList\ArrayList.csproj", "{D4BC1863-0E89-4957-9207-9BE398C4B253}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{664EFFB0-EDFB-470F-ADFC-2507708821C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{664EFFB0-EDFB-470F-ADFC-2507708821C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{664EFFB0-EDFB-470F-ADFC-2507708821C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BC1863-0E89-4957-9207-9BE398C4B253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BC1863-0E89-4957-9207-9BE398C4B253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BC1863-0E89-4957-9207-9BE398C4B253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BC1863-0E89-4957-9207-9BE398C4B253}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
