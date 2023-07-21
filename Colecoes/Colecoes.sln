@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayList 4", "ArrayList 4\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colecao List 1", "Colecao List 1\Colecao List 1.csproj", "{6AEA2190-961E-4D5F-B727-74F451789548}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colecao List 2", "Colecao List 2\Colecao List 2.csproj", "{ECFC080C-7DD5-4445-900D-D1EEB61E4D27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{6AEA2190-961E-4D5F-B727-74F451789548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AEA2190-961E-4D5F-B727-74F451789548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AEA2190-961E-4D5F-B727-74F451789548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFC080C-7DD5-4445-900D-D1EEB61E4D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFC080C-7DD5-4445-900D-D1EEB61E4D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFC080C-7DD5-4445-900D-D1EEB61E4D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFC080C-7DD5-4445-900D-D1EEB61E4D27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
