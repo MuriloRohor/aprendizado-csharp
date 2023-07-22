@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colecao List 2", "Colecao L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conceito ArrayList e List", "Conceito ArrayList e List\Conceito ArrayList e List.csproj", "{1E33E219-AE4E-49C5-B7F2-D9A3B1E55E08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List - Métodos Find", "List - Métodos Find\List - Métodos Find.csproj", "{E3F23994-73B9-4599-BA72-A094B904EC2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{1E33E219-AE4E-49C5-B7F2-D9A3B1E55E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E33E219-AE4E-49C5-B7F2-D9A3B1E55E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E33E219-AE4E-49C5-B7F2-D9A3B1E55E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F23994-73B9-4599-BA72-A094B904EC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F23994-73B9-4599-BA72-A094B904EC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F23994-73B9-4599-BA72-A094B904EC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F23994-73B9-4599-BA72-A094B904EC2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
