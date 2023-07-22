@@ -28,6 +28,7 @@ Console.WriteLine($"\nPredicado => {fruta1}");
 var fruta2 = frutas.Find(i => i.Contains('n'));
 Console.WriteLine($"\nExpressão lambda => {fruta2}");
 
+
 Console.ReadKey();
 static bool Procura(string item)
 {
