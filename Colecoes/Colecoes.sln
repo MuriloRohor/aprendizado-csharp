@@ -33,11 +33,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colecao List 1", "Colecao L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colecao List 2", "Colecao List 2\Colecao List 2.csproj", "{ECFC080C-7DD5-4445-900D-D1EEB61E4D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conceito ArrayList e List", "Conceito ArrayList e List\Conceito ArrayList e List.csproj", "{1E33E219-AE4E-49C5-B7F2-D9A3B1E55E08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conceito ArrayList e List", "Conceito ArrayList e List\Conceito ArrayList e List.csproj", "{1E33E219-AE4E-49C5-B7F2-D9A3B1E55E08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List - Métodos Find", "List - Métodos Find\List - Métodos Find.csproj", "{E3F23994-73B9-4599-BA72-A094B904EC2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List - Métodos Find", "List - Métodos Find\List - Métodos Find.csproj", "{E3F23994-73B9-4599-BA72-A094B904EC2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List - Métodos Find 2", "List - Métodos Find 2\List - Métodos Find 2.csproj", "{81728EAB-A82A-4070-93D6-78EDB9A11BB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List - Métodos Find 2", "List - Métodos Find 2\List - Métodos Find 2.csproj", "{81728EAB-A82A-4070-93D6-78EDB9A11BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List e IEnumerable", "List e IEnumerable\List e IEnumerable.csproj", "{2DC28473-A9EC-4CAF-A652-47E5CC4EC884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{81728EAB-A82A-4070-93D6-78EDB9A11BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81728EAB-A82A-4070-93D6-78EDB9A11BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81728EAB-A82A-4070-93D6-78EDB9A11BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC28473-A9EC-4CAF-A652-47E5CC4EC884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC28473-A9EC-4CAF-A652-47E5CC4EC884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC28473-A9EC-4CAF-A652-47E5CC4EC884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC28473-A9EC-4CAF-A652-47E5CC4EC884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
