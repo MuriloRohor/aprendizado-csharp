@@ -15,6 +15,7 @@
 
 // Where() -> Retorna todos os elementos da coleção que satisfazem uma determinada condição.(execução adiada)
 
+
 // List<T> x IEnumerable<T>
 // - IEnumerable descreve um comportamento e List implementa esse comportamento.
 
@@ -32,6 +33,55 @@
 
 
 // - List possui toda a coleção em memória e sabe quantos itens possui a coleção
+
+Console.WriteLine("Analise de Limite");
+
+var limiteCredito = new List<Limite>();
+
+for (int i = 0; i < 16; i++)
+{
+    limiteCredito.Add(new Limite() { Numero = i });
+}
+
+var limiteComRestricao = limiteCredito.Where(x => x.AnalisaLimite());
+
+//if (limiteComRestricao.Count() > 3)
+//{
+//Console.WriteLine("\n### Temos mais de 3 limites com restrição");
+                                                                              
+//}
+//if (limiteComRestricao.Count() > 5)
+//{
+//    Console.WriteLine("\n### Temos mais de 5 limites com restrição");
+
+
+
+
+    var primeiroLimiteComRestricao = limiteComRestricao.FirstOrDefault();           // Vai executar a lista até encontrar o primeiro limite com restrição e depois parar a execução #IEnumerable
+Console.WriteLine($"\n## {primeiroLimiteComRestricao?.Numero}");              
+
+
+Console.WriteLine("\nFim do processamento...");
+
+Console.ReadKey();
+
+public class Limite
+{
+    public int Numero { get; set; }
+    private bool isRestricao;
+
+    public Limite()
+    {
+        var semente = Guid.NewGuid().GetHashCode();
+        var numeroAleatorio = new Random(semente).Next(1, 4);
+        isRestricao = numeroAleatorio == 1;
+    }
+    public bool AnalisaLimite()
+    {
+        Console.WriteLine($"Executa análise de limite de Crédito para o limite {Numero}");
+        return isRestricao;
+    }
+}
 
 
 
