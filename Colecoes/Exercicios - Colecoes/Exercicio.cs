@@ -28,12 +28,12 @@ ExibirArray(frutas);
 
 Console.ReadKey();
 
-static void ExibirArray(string[] frutas)
+static void ExibirArray(string[] lista)
 {
-    for (int i = 0; i < frutas.Length; i++)
+    for (int i = 0; i < lista.Length; i++)
     {
-        Console.Write($"{frutas[i]} ");
+        Console.Write($"{lista[i]} ");
     }
-    Console.WriteLine($"Quantida de frutas : {frutas.Length}");
+    Console.WriteLine($"Quantidade : {lista.Length}");
 }
 
