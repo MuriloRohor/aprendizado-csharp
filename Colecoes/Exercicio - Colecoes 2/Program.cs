@@ -16,9 +16,30 @@ int[] listaInteiros = new int[tamanhoLista];
 
 for (int i = 0; i < tamanhoLista; i++)
 {
-    Console.Write($"{listaInteiros[i]} = ");
+    Console.Write($"listaInteiros[{i}] = ");
     listaInteiros[i]= Convert.ToInt32(Console.ReadLine());    
 }
 
+string numero;
+Console.WriteLine("\nInforme o número para localizar no array(Digite 'fim' para encerrar) : \n");
+
+do
+{
+    numero = Console.ReadLine();
+    if (numero != "fim")
+    {
+        int valor = Convert.ToInt32(numero);
+
+        if (Array.BinarySearch(listaInteiros, valor) >= 0)
+        {
+            Console.WriteLine($"O número {numero} existe no array");
+        }
+        else
+        {
+            Console.WriteLine($"O número {numero} não existe no array");
+        }
+    }
+}
+while (numero != "fim");
 
 Console.ReadKey();
