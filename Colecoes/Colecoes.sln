@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random", "Random\Random.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio - Colecoes", "Exercicios - Colecoes\Exercicio - Colecoes.csproj", "{14B6B89D-7118-404B-ADF5-14D4DCD04725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio - Colecoes 2", "Exercicio - Colecoes 2\Exercicio - Colecoes 2.csproj", "{490DA850-61DA-44A9-B8B0-9D7088BF0F79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio - Colecoes 2", "Exercicio - Colecoes 2\Exercicio - Colecoes 2.csproj", "{490DA850-61DA-44A9-B8B0-9D7088BF0F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio - Colecoes 3", "Exercicio - Colecoes 3\Exercicio - Colecoes 3.csproj", "{2BDBE3FC-3977-48BD-8C17-0E15CDA63CA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{490DA850-61DA-44A9-B8B0-9D7088BF0F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{490DA850-61DA-44A9-B8B0-9D7088BF0F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{490DA850-61DA-44A9-B8B0-9D7088BF0F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDBE3FC-3977-48BD-8C17-0E15CDA63CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDBE3FC-3977-48BD-8C17-0E15CDA63CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDBE3FC-3977-48BD-8C17-0E15CDA63CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDBE3FC-3977-48BD-8C17-0E15CDA63CA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
