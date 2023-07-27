@@ -14,7 +14,6 @@ Console.WriteLine("Informe os números do array");
 int[] listaInteiros = new int[tamanhoLista];
 
 
-
 for (int i = 0; i < tamanhoLista; i++)
 {
     Console.Write($"{listaInteiros[i]} = ");
