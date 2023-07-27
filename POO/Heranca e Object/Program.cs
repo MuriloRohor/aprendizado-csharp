@@ -16,7 +16,11 @@ Console.WriteLine("## Herança e Object ##");
 // - ToString    : Retorna a representação do objeto como uma string;
 // - GetType     : Retorna a informação sobre o tipo;
 
+// não existe herança multipla de classes
+
 Nada nada = new Nada();
+nada.GetHashCode();
+
 
 Console.ReadKey();
 public class Nada
