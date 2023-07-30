@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca - Abstract", "Modif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{14765D7A-7367-4DA7-90AD-5A5C22BDE21A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces - Exercicios", "Interfaces - Exercicios\Interfaces - Exercicios.csproj", "{FDD28A53-2D02-4294-9C25-A49E8EAA9070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{14765D7A-7367-4DA7-90AD-5A5C22BDE21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14765D7A-7367-4DA7-90AD-5A5C22BDE21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14765D7A-7367-4DA7-90AD-5A5C22BDE21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD28A53-2D02-4294-9C25-A49E8EAA9070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD28A53-2D02-4294-9C25-A49E8EAA9070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD28A53-2D02-4294-9C25-A49E8EAA9070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD28A53-2D02-4294-9C25-A49E8EAA9070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
