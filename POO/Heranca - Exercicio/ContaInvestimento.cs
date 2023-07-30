@@ -2,7 +2,7 @@
 
 public class ContaInvestimento : Conta
 {
-    public double Juros { get; set; } = 0.009;
+    public override double Juros { get; set; } = 0.009;
     public double Imposto { get; set; } = 0.001;
 
     private decimal CalculaImposto(double imposto)
