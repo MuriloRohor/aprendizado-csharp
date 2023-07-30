@@ -12,6 +12,15 @@
 
 // Fazendo a conversão usando o operador as 
 
+
+// O operador is é usado para verificar se o tipo de um objeto é compatível com o tipo especificado ou não
+
+// Retorna true se o objeto especificado for do mesmo tipo, caso contrário, retorna false.
+// Retorna false também para objetos nulos.
+
+// Podemos usar o operador is para verificar se uma conversão entre tipos será bem sucedida ou não.
+
+// O operador is é um operador do tipo booleano de comparação de tipos.
 Object carroObj = new Carro();
 
 try
