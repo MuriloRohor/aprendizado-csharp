@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Herancas - Downcasting e Up
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operadores - is e as", "Operadores - is e as\Operadores - is e as.csproj", "{835B3DAC-B508-47B9-B781-7D0F19E481A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modificador Abstract", "Modificador Abstract\Modificador Abstract.csproj", "{F109D35F-F557-410D-BEEC-CCEA756208E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca -Abstract", "Modificador Abstract\Heranca -Abstract.csproj", "{F109D35F-F557-410D-BEEC-CCEA756208E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
