@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfismo", "Polimorfism
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios", "Exercicios\Exercicios.csproj", "{C3E8E87C-31B2-4501-8051-79DC6AA0C850}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio 1", "Exercicio 1\Exercicio 1.csproj", "{EA366B9B-9D47-46F6-8089-BC11F1FDFF6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{C3E8E87C-31B2-4501-8051-79DC6AA0C850}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3E8E87C-31B2-4501-8051-79DC6AA0C850}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3E8E87C-31B2-4501-8051-79DC6AA0C850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA366B9B-9D47-46F6-8089-BC11F1FDFF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA366B9B-9D47-46F6-8089-BC11F1FDFF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA366B9B-9D47-46F6-8089-BC11F1FDFF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA366B9B-9D47-46F6-8089-BC11F1FDFF6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
