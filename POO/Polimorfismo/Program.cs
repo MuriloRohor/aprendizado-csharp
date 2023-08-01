@@ -1,4 +1,6 @@
-﻿Console.WriteLine("## Polimorfismo ##");
+﻿using Polimorfismo;
+
+Console.WriteLine("## Polimorfismo ##");
 
 // É considerado o terceiro pilar da programação orientada objetos.
 
@@ -28,11 +30,34 @@
 // Polimorfismo : Implementação
 
 // Polimorfismo com Herança
-// - Classes derivadas sobrescrevendo os membros da classe base
+// - Classes derivadas sobrescrevendo os membros da classe base.
 
 // Polimorfismo com interface
 // - Classes que implementam a interface com comportamentos diferentes.
 // - Métodos com mesmo nome nas classes mas funcionalidades diferentes.
 
 // Polimorfismo com classe abstrata
-// - As classes derivadas incluem detalhes de implementação nos métodos abstratos
+// - As classes derivadas incluem detalhes de implementação nos métodos abstratos.
+
+
+// Polimorfismo em tempo de execução.
+
+var figuras = new List<Figura>
+{
+    new Triangulo(),
+    new Circulo()
+};
+
+foreach (var figura in figuras)
+{
+    figura.Desenhar();
+}
+
+// Polimorfismo em tempo de compilação. 
+
+Calcular calc = new Calcular();
+Console.WriteLine(calc.Somar(30, 40));
+Console.WriteLine(calc.Somar(30, 40, 50));
+
+Console.ReadKey();
+
